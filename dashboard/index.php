@@ -199,14 +199,13 @@ require '../lib/database.php';
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="https://okepedia.my.id/dashboard/assets/img/howto.png" alt="project" class="img-fluid">
+                        <img src="photos.svg" alt="project" height="120%">
                     </div>
                     <div class="col-lg-6">
                         <div class="box">
                             <h3>1. Register / Daftar</h3>
                             <p>Pertama Anda Harus Register / Mendaftar Terlebih Dahulu Dan Lakukan Verifikasi Email.
-                            Selanjutnya Login Sesuai Dengan Akun Yang Kamu Buat.<br/>
-                            <a href="https://okepedia.my.id/page/cara-pendaftaran">Cara Pendaftaran</a>
+                            Selanjutnya Login Sesuai Dengan Akun Yang Kamu Buat.</p>
                         </div>
                         <div class="box">
                             <h3>2. Isi Saldo</h3>
