@@ -98,7 +98,7 @@ require("config.php");
             header("Location: ".$config['web']['url']."dashboard");
         }
 
-include("lib/beranda.php");
+include("lib/header.php");
 if (isset($_SESSION['user'])) {
 ?>
 
