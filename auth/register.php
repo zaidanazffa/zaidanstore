@@ -207,9 +207,6 @@ function dapetin($url) {
                                         <i class="fa fa-gift"></i>
                                         <small class="text-danger font-13 pull-right"><?php echo ($error['kode_referral']) ? $error['kode_referral'] : '';?></small>
                                     </div>
-				    <div class="form-group form-box">
-                                       <div class="g-recaptcha" data-sitekey="6LeqbNEcAAAAALedTQ6w0AemY3hdBCvzpbZIN2ow"></div>
-				    </div>
                                     <div class="checkbox clearfix">
                                         <div class="form-check checkbox-theme">
                                             <input class="form-check-input" type="checkbox" value="true" name="accept" id="rememberMe">

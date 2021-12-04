@@ -153,6 +153,7 @@ if (isset($_SESSION['user'])) {
                     <?php
                     if ($data_user['level'] != "Member") {
                     ?>
+                    <?php } ?>
                     <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
                         <a  href="javascript:;" class="kt-menu__link kt-menu__toggle">
                             <span class="kt-menu__link-text">Market Place &nbsp;<i class="fa fa-angle-down"></i></span>
@@ -170,11 +171,6 @@ if (isset($_SESSION['user'])) {
                                 </a>
                             </li>
                         </ul>
-                    </li>
-                    <?php } ?>
-                    <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
-                        <a href="<?php echo $config['web']['url'] ?>page/help" class="kt-menu__link"><span class="kt-menu__link-text">Komplain Tiket</span>
-                        </a>
                     </li>
                     <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
                         <a href="<?php echo $config['web']['url'] ?>page/program-referral" class="kt-menu__link"><span class="kt-menu__link-text">Cek Kode Referral</span>
