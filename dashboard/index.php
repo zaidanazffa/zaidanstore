@@ -128,7 +128,7 @@ require '../lib/database.php';
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo $config['web']['url'] ?>dashboard">Home</a>
+                                <a class="nav-link" href="<?php echo $config['web']['url'] ?>dashboard">Halaman Utama</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#benefits">Fitur Kami</a>
