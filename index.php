@@ -181,48 +181,98 @@ if (isset($_SESSION['user'])) {
                 </div>
                 <div class="kt-portlet__body">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/sosial-media"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/sosmed.png" alt=""><span>SOSMED</span></a>
+                                <a href="<?php echo $config['web']['url'] ?>order/sosial-media"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/sosmed.png" alt=""><br><span>SOSMED</span></a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/pulsa-reguler"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/pulsa.png" alt=""><span>PULSA</span></a>
+                                <a href="<?php echo $config['web']['url'] ?>order/pulsa-reguler"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/pulsa.png" alt=""><br><span>PULSA</span></a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/saldo-emoney"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/e-money.png" alt=""><span>TOP UP</span></a>
+                                <a href="<?php echo $config['web']['url'] ?>order/saldo-emoney"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/e-money.png" alt=""><br><span>TOP UP</span></a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/paket-data-internet"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/internet.png" alt=""><span>KUOTA</span></a>
+                                <a href="<?php echo $config['web']['url'] ?>order/paket-data-internet"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/internet.png" alt=""><br><span>KUOTA</span></a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/paket-sms-telepon"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/phone-sms.png" alt=""><span>PAKET</span></a>
+                                <a href="<?php echo $config['web']['url'] ?>order/paket-sms-telepon"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/phone-sms.png" alt=""><br><span>PAKET</span></a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/voucher-game"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/voucher-game.png" alt=""><span>GAMES</span></a>
+                                <a href="<?php echo $config['web']['url'] ?>order/voucher-game"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/voucher-game.png" alt=""><br><span>GAMES</span></a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/voucher"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/voucher.png" alt=""><span>VOCHER</span></a>
-                            </div></div>
-                        <div class="col-4">
-                            <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/token-pln"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/token-listrik.png" alt=""><span>PLN</span></a>
+                                <a href="<?php echo $config['web']['url'] ?>order/token-pln"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/token-listrik.png" alt=""><br><span>PLN</span></a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="card-body">
-                                <a href="<?php echo $config['web']['url'] ?>order/streaming"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/streaming.png" alt=""><span>LAINNYA</a>
+                                <a href="<?php echo $config['web']['url'] ?>order/streaming"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/kategori.png" alt=""><br><span>LAINNYA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kt-portlet product-catagory-wrap">
+                <div class="kt-portlet__head">
+                    <div class="kt-portlet__head-label">
+                            <h3 class="kt-portlet__head-title">
+                                Bayar Tagihan
+                            </h3>
+                    </div>
+                </div>
+                <div class="kt-portlet__body">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/sosial-media"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/sosmed.png" alt=""><br><span>SOSMED</span></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/pulsa-reguler"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/pulsa.png" alt=""><br><span>PULSA</span></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/saldo-emoney"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/e-money.png" alt=""><br><span>TOP UP</span></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/paket-data-internet"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/internet.png" alt=""><br><span>KUOTA</span></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/paket-sms-telepon"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/phone-sms.png" alt=""><br><span>PAKET</span></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/voucher-game"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/voucher-game.png" alt=""><br><span>GAMES</span></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/token-pln"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/token-listrik.png" alt=""><br><span>PLN</span></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/streaming"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/wifi-id.png" alt=""><br><span>LAINNYA</a>
                             </div>
                         </div>
                     </div>
