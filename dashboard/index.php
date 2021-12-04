@@ -176,7 +176,7 @@ require '../lib/database.php';
                             <div class="mt-4 mb-4">
                                 <a href="<?php echo $config['web']['url'] ?>/auth/login" class="btn btn-outline-danger mt-2 text-white">Masuk</a>
                                 <a href="<?php echo $config['web']['url'] ?>auth/register" class="btn btn-outline-danger mt-2 text-white">Daftar</a>
-                                <a href="#" target="blank" class="btn btn-outline-danger mt-2 text-white">Playstore</a>
+                                <a href="#" target="blank" class="btn btn-outline-danger mt-2 text-white">Apk</a>
                             <div id="response"></div>
                         </div>
                         </div>
