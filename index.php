@@ -168,8 +168,69 @@ if (isset($_SESSION['user'])) {
             <br>
             <br>
 
+            <div class="kt-portlet product-catagory-wrap">
+                <div class="kt-portlet__head">
+                    <div class="kt-portlet__head-label">
+                            <h3 class="kt-portlet__head-title">
+                                Username : <?php echo $data_user['username']; ?>
+                            </h3>
+                    </div>
+                    <div class="kt-portlet__head-label">
+                            <a href="" class="btn btn-success">Deposit</a>
+                    </div>
+                </div>
+                <div class="kt-portlet__body">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/sosial-media"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/sosmed.png" alt=""><span>SOSMED</span></a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/pulsa-reguler"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/pulsa.png" alt=""><span>PULSA</span></a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/saldo-emoney"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/e-money.png" alt=""><span>TOP UP</span></a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/paket-data-internet"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/internet.png" alt=""><span>KUOTA</span></a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/paket-sms-telepon"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/phone-sms.png" alt=""><span>PAKET</span></a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/voucher-game"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/voucher-game.png" alt=""><span>GAMES</span></a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/voucher"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/voucher.png" alt=""><span>VOCHER</span></a>
+                            </div></div>
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/token-pln"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/token-listrik.png" alt=""><span>PLN</span></a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-body">
+                                <a href="<?php echo $config['web']['url'] ?>order/streaming"><img height="50px" src="<?php echo $config['web']['url'] ?>assets/media/icon-pay/streaming.png" alt=""><span>LAINNYA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         <!-- order -->
-        <div class="product-catagory-wrap">
+        <!-- <div class="product-catagory-wrap">
                 <div class="row">
                     <div class="col-4">
                         <div class="card mb-3 catagory-card">
@@ -283,7 +344,7 @@ if (isset($_SESSION['user'])) {
             </div>
 
 
-    <!-- Grafik -->
+    Grafik -->
     <div class="kt-portlet">
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
