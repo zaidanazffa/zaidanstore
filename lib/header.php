@@ -165,7 +165,7 @@ if (isset($_SESSION['user'])) {
                         </ul>
                     </li>
                     <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
-                        <a href="<?php echo $config['web']['url'] ?>page/program-referral" class="kt-menu__link"><span class="kt-menu__link-text">Cek Kode Referral</span>
+                        <a href="<?php echo $config['web']['url'] ?>page/program-referral" class="kt-menu__link"><span class="kt-menu__link-text">Referral</span>
                         </a>
                     </li>
                     <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
@@ -254,9 +254,32 @@ if (isset($_SESSION['user'])) {
                                     </a>
                                 </li>
                             </li>
+                            
                         </ul>
                     </div>
                 </li>
+                <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
+                        <a href="##" class="kt-menu__link"><span class="kt-menu__link-text">Download Aplikasi</span>
+                        </a>
+                </li>
+                <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
+                        <a  href="javascript:;" class="kt-menu__link kt-menu__toggle">
+                            <span class="kt-menu__link-text">Buat Website &nbsp;<i class="fa fa-angle-down"></i></span>
+                        </a>
+                        <div class="kt-menu__submenu kt-menu__submenu--classic kt-menu__submenu--left">
+                        <ul class="kt-menu__subnav">
+                            <li class="kt-menu__item  kt-menu__item--submenu" data-ktmenu-submenu-toggle="hover" aria-haspopup="true">
+                                <a  href="#" class="kt-menu__link">
+                                    <span class="kt-menu__link-text">Sewa SMM dan PPob</span>
+                                </a>
+                            </li>
+                            <li class="kt-menu__item  kt-menu__item--submenu" data-ktmenu-submenu-toggle="hover" aria-haspopup="true">
+                                <a  href="#" class="kt-menu__link">
+                                    <span class="kt-menu__link-text">Buat Website Toko Online</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
             </div>
         </div>
         <!--End Header Menu -->
